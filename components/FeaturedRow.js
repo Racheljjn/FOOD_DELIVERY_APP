@@ -28,8 +28,36 @@ const FeaturedRow = ({ id, title, description }) => {
           rating={4.5}
           genre="Janpanese"
           address="89 Main St."
-          short_description="This is a Test"
-          dishes={[]}
+          short_description="sushi is a staple rice dish of Japanese cuisine, consisting of cooked rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served cold."
+          dishes={[
+            {
+              _id: "Japan1",
+              name: "Sashimi",
+              short_description:
+                "sashimi is thinly sliced raw meat, typically fish that is served without rice.",
+              price: 40,
+              imgUrl:
+                "https://cdn.pixabay.com/photo/2015/03/23/10/27/sushi-685912_1280.jpg",
+            },
+            {
+              _id: "Japan2",
+              name: "Sashimi",
+              short_description:
+                "sashimi is thinly sliced raw meat, typically fish that is served without rice.",
+              price: 40,
+              imgUrl:
+                "https://cdn.pixabay.com/photo/2015/03/23/10/27/sushi-685912_1280.jpg",
+            },
+            {
+              _id: "Japan3",
+              name: "Sashimi",
+              short_description:
+                "sashimi is thinly sliced raw meat, typically fish that is served without rice.",
+              price: 40,
+              imgUrl:
+                "https://cdn.pixabay.com/photo/2015/03/23/10/27/sushi-685912_1280.jpg",
+            },
+          ]}
           long={20}
           lat={0}
         />
@@ -40,8 +68,36 @@ const FeaturedRow = ({ id, title, description }) => {
           rating={4.8}
           genre="Indian"
           address="20 Yonge St."
-          short_description="This is a Test"
-          dishes={[]}
+          short_description="A typical Indian vegetarian meal consists of dal (beans), roti (bread) and/or rice, vegetables, and yogurt."
+          dishes={[
+            {
+              _id: "India1",
+              name: "Samosa",
+              short_description:
+                "A samosa is a fried South Asian pastry with a savoury filling.",
+              price: 20,
+              imgUrl:
+                "https://cdn.pixabay.com/photo/2016/06/26/22/46/india-1481500_1280.jpg",
+            },
+            {
+              _id: "India2",
+              name: "Samosa",
+              short_description:
+                "A samosa is a fried South Asian pastry with a savoury filling.",
+              price: 20,
+              imgUrl:
+                "https://cdn.pixabay.com/photo/2016/06/26/22/46/india-1481500_1280.jpg",
+            },
+            {
+              _id: "India3",
+              name: "Samosa",
+              short_description:
+                "A samosa is a fried South Asian pastry with a savoury filling.",
+              price: 20,
+              imgUrl:
+                "https://cdn.pixabay.com/photo/2016/06/26/22/46/india-1481500_1280.jpg",
+            },
+          ]}
           long={20}
           lat={0}
         />
@@ -52,8 +108,36 @@ const FeaturedRow = ({ id, title, description }) => {
           rating={4.2}
           genre="Italian"
           address="100 Hero St."
-          short_description="This is a Test"
-          dishes={[]}
+          short_description="Pizza is often considered to be a savory food made into a round shape and cut into wedges for serving."
+          dishes={[
+            {
+              _id: "Italy1",
+              name: "Hawaii Pizza",
+              short_description:
+                "Classic Hawaiian Pizza combines pizza sauce, cheese, cooked ham, and pineapple. ",
+              price: 17,
+              imgUrl:
+                "https://cdn.pixabay.com/photo/2016/04/14/19/56/pizza-hawaiian-1329621_1280.jpg",
+            },
+            {
+              _id: "Italy2",
+              name: "Hawaii Pizza",
+              short_description:
+                "Classic Hawaiian Pizza combines pizza sauce, cheese, cooked ham, and pineapple.",
+              price: 17,
+              imgUrl:
+                "https://cdn.pixabay.com/photo/2016/04/14/19/56/pizza-hawaiian-1329621_1280.jpg",
+            },
+            {
+              _id: "Italy3",
+              name: "Hawaii Pizza",
+              short_description:
+                "Classic Hawaiian Pizza combines pizza sauce, cheese, cooked ham, and pineapple.",
+              price: 17,
+              imgUrl:
+                "https://cdn.pixabay.com/photo/2016/04/14/19/56/pizza-hawaiian-1329621_1280.jpg",
+            },
+          ]}
           long={20}
           lat={0}
         />
