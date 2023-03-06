@@ -1,7 +1,8 @@
-import { View, Text, Image, TouchableOpacity } from "react-native";
 import React from "react";
-import { StarIcon, MapPinIcon } from "react-native-heroicons/solid";
+import { View, Text, Image, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+
+import { StarIcon, MapPinIcon } from "react-native-heroicons/solid";
 
 const RestaurantCard = ({
   id,
@@ -16,6 +17,7 @@ const RestaurantCard = ({
   lat,
 }) => {
   const navigation = useNavigation();
+
   return (
     <TouchableOpacity
       onPress={() => {

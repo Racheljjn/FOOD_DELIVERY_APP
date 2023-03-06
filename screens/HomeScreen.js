@@ -1,3 +1,4 @@
+import React, { useLayoutEffect } from "react";
 import {
   View,
   Text,
@@ -6,8 +7,8 @@ import {
   TextInput,
   ScrollView,
 } from "react-native";
-import React, { useLayoutEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
+
 import {
   UserIcon,
   ChevronDownIcon,
@@ -43,10 +44,8 @@ const HomeScreen = () => {
             <ChevronDownIcon size={20} color="#00CCBB" />
           </Text>
         </View>
-
         <UserIcon size={30} color="#00CCBB" />
       </View>
-
       {/* search */}
       <View className="flex-row items-center space-x-2 pb-2 mx-4">
         <View className="flex-row flex-1 space-x-2 bg-gray-200 p-3">
@@ -59,7 +58,6 @@ const HomeScreen = () => {
         <AdjustmentsVerticalIcon color="#00CCBB" />
       </View>
       {/* body */}
-
       <ScrollView
         className="bg-gray-100"
         contentContainerStyle={{ paddingBottom: 100 }}

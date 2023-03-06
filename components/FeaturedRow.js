@@ -1,9 +1,11 @@
-import { View, Text, ScrollView } from "react-native";
 import React from "react";
+import { View, Text, ScrollView } from "react-native";
+
 import { ArrowRightIcon } from "react-native-heroicons/solid";
+
 import RestaurantCard from "./RestaurantCard";
 
-const FeaturedRow = ({ id, title, description }) => {
+const FeaturedRow = ({ title, description }) => {
   return (
     <View>
       <View className="mt-4 flex-row items-center justify-between px-4">
@@ -22,7 +24,7 @@ const FeaturedRow = ({ id, title, description }) => {
         className="pt-4"
       >
         <RestaurantCard
-          id={123}
+          id={1}
           imgUrl="https://cdn.pixabay.com/photo/2014/05/26/14/53/sushi-354628_1280.jpg"
           title="Yo!Sushi"
           rating={4.5}
@@ -62,7 +64,7 @@ const FeaturedRow = ({ id, title, description }) => {
           lat={0}
         />
         <RestaurantCard
-          id={123}
+          id={2}
           imgUrl="https://cdn.pixabay.com/photo/2016/10/25/13/42/indian-1768906_1280.jpg"
           title="Vegetarian"
           rating={4.8}
@@ -102,7 +104,7 @@ const FeaturedRow = ({ id, title, description }) => {
           lat={0}
         />
         <RestaurantCard
-          id={123}
+          id={3}
           imgUrl="https://cdn.pixabay.com/photo/2016/06/08/00/03/pizza-1442946_1280.jpg"
           title="Nice Pizza"
           rating={4.2}
